@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  align-content: center;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+.medium {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+}
+
+.main {
+  background-color: yellow;
+  height: 100%;
+  width: 70%;
+  align-content: center;
+}
+
+.nav {
+  background-color: cyan;
+  height: 100%;
+  width: 15%;
+}
+.sidebar {
+  background-color: green;
+  height: 100%;
+  width: 15%;
+}
+
+.footer {
+  background-color: pink;
+  height: 15%;
+}
+
+.header {
+  background-color: brown;
+  height: 15%;
+}
